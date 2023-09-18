@@ -10,4 +10,5 @@ public class Spring5JokesAppV2Application {
         SpringApplication.run(Spring5JokesAppV2Application.class, args);
     }
 
+
 }
