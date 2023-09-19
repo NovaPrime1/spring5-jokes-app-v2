@@ -1,26 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Chuck Norris Jokes</title>
 </head>
 <body>
 
 <h1>Chuck Norris Quotes - Jokes</h1>
-
-
-<table>
-    <tr>
-        <th>Quote Jokes</th>
-
-
-    </tr>
-    <tr th:each="joke : ${jokes}">
-        <td th:text="${joke}">Questions</td>
-
-
-    </tr>
-</table>
+<p th:text="${joke}"> Show Joke here...</p>
 
 </body>
 </html>
